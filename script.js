@@ -140,7 +140,7 @@ let randomAddress;
 const audiosvg = document.querySelector(".audiosvg");
 const activeBox = document.querySelector(".active-box");
 let audioMp3 = new Audio();
-audioMp3.src = "https://cdn.jsdelivr.net/gh/github-Asuki696/music-address/test1.mp3";
+audioMp3.src = "https://cdn.jsdelivr.net/gh/github-Asuki696/Music-Player/test2.mp3";
 // error check
     audioMp3.addEventListener('error',function(){
       if (audioMp3.error) {
